@@ -39,8 +39,8 @@ body{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   padding-left: 90px;
-   padding-right: 90px;
+   padding-left: 12%;
+   padding-right: 12%;
    padding-top: 30px;
    padding-bottom: 30px;
 }
@@ -50,28 +50,26 @@ body{
 }
 .label{
    font-family: gothamhtf-bold;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 700;
    text-transform: uppercase;
 }
 .cstm{
-   font-size: 16px;
+   font-size: 14px;
    margin-top: 5px;
 }
 .subs_input{
-   /* padding: 7px; */
+   width: 25vw;
    margin-top: 10px;
+   padding: 7px;
 }
 .subs_submit{
    background-color: black;
    border: none;
    color: white;
-   font-weight: 600;
-   font-size: 18px;
-   margin-left: 10px;
-   /* padding: 7px; */
-   width: 50px;
-   height: 50px;
+   font-weight: 700;
+   width: 32px;
+   height: 32px;
    text-transform: uppercase;
 }
 .fab{
@@ -91,6 +89,7 @@ body{
 
 a {
    color: black;
+   cursor: pointer;
    text-decoration: none;
 }
 a:hover{
