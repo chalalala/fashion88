@@ -143,6 +143,7 @@ a:hover{
    }
    .subs_col{
       float: left;
+      width: 80vw;
       margin-bottom: 20px;
    }
    .cstm{
