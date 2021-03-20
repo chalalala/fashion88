@@ -1,0 +1,98 @@
+@font-face {
+   font-family: gothamhtf-bold;
+   src: url(fonts/gothamhtf-bold-webfont.ttf)
+}
+@font-face {
+   font-family: gothamhtf-book;
+   src: url(fonts/gothamhtf-book-webfont.ttf)
+}
+
+body{
+   margin:0;
+   font-family: gothamhtf-book;
+}
+.container{
+   width: 100vw;
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   flex-grow: 1;
+   width: 100%;
+}
+.col {
+   flex-direction: column;
+}
+
+.col img{
+   width: 100%;
+   /* flex-grow: 1; */
+}
+
+.text{
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: 600;
+}
+
+.subscribe{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 90px;
+   padding-right: 90px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.subs_col{
+   width: max-content;
+   display: flex;
+   flex-direction: column;
+}
+.label{
+   font-family: gothamhtf-bold;
+   font-size: 18px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.cstm{
+   font-size: 16px;
+   margin-top: 5px;
+}
+.subs_input{
+   /* padding: 7px; */
+   margin-top: 10px;
+}
+.subs_submit{
+   background-color: black;
+   border: none;
+   color: white;
+   font-weight: 600;
+   font-size: 18px;
+   margin-left: 10px;
+   /* padding: 7px; */
+   width: 50px;
+   height: 50px;
+   text-transform: uppercase;
+}
+
+.fab{
+   color:black;
+   font-size: 26px;
+   margin-right: 15px;
+   margin-left: 10px;
+   margin-top: 22px;
+}
+.footer{
+   color: black;
+   font-size: 12px;
+   text-align: center;
+   text-decoration: none;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.footer a:hover{
+   color: gray;
+}
