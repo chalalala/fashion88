@@ -51,7 +51,7 @@ body{
 .text{
    text-align: center;
    text-transform: uppercase;
-   font-size: 1.2vw;
+   font-size: 0.8em;
    font-weight: 600;
 }
 
@@ -95,7 +95,7 @@ body{
    margin-top: 5px;
 }
 .subs_input{
-   width: 25vw;
+   width: 400px;
    margin-top: 10px;
    padding: 7px;
 }
@@ -131,4 +131,48 @@ a {
 }
 a:hover{
    color: gray;
+}
+
+@media only screen and (max-width: 980px){
+   .nav-link{
+      font-size: 2vw;
+      margin-bottom: 1em;
+   }
+   .text{
+      font-size: 2vw;
+   }
+   .subs_input{
+      font-size: 2.5vw;
+      width: 60vw;
+      margin-top: 10px;
+      padding: 7px;
+   }
+   .subs_submit{
+      width: max-content;
+      height: max-content;
+      padding: 1.2vw;
+      font-size: 2vw;
+   }
+   .label{
+      font-size: 3.5vw;
+      font-weight: 500;
+   }
+   .subscribe{
+      display: block;
+      flex: none;
+   }
+   .subs_col{
+      float: left;
+      width: 80vw;
+      margin-bottom: 20px;
+   }
+   .cstm{
+      font-size: 2.5vw;
+   }
+   .footer{
+      float:left;
+      margin-left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80vw;
+   }
 }
