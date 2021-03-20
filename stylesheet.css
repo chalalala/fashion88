@@ -55,6 +55,22 @@ body{
    font-weight: 600;
 }
 
+.navigation{
+   display: flex;
+   position: absolute;
+   left: 4%;
+   top: 20%;
+   flex-direction: column;
+   font-size: 18px;
+   font-weight: 600;
+   text-transform: uppercase;
+   z-index: 1;
+}
+.nav-link{
+   margin-bottom: 30px;
+   letter-spacing: 5px;
+}
+
 .subscribe{
    display: flex;
    flex-direction: row;
@@ -87,6 +103,7 @@ body{
    background-color: black;
    border: none;
    color: white;
+   cursor: pointer;
    font-weight: 700;
    width: 32px;
    height: 32px;
