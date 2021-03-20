@@ -139,6 +139,7 @@ a:hover{
    }
    .subscribe{
       display: block;
+      flex: none;
    }
    .subs_col{
       float: left;
@@ -151,5 +152,6 @@ a:hover{
       float:left;
       margin-left: 50%;
       transform: translate(-50%, -50%);
+      width: 80vw;
    }
 }
